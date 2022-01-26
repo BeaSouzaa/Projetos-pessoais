@@ -1,0 +1,247 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+}
+
+header{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://th.bing.com/th/id/R.a6671937a4db68c68485d574e1222936?rik=eJatT5tM04%2f67g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-EAtCa9k330Y%2fT99Bdcs_YQI%2fAAAAAAAAHG4%2fxLFUk8cV20k%2fs1600%2fbackground-952.jpg&ehk=aov4TRSjJ1IbISbENr6TrwTn2pkX5p4NrtBBgrsyfZI%3d&risl=&pid=ImgRaw&r=0");
+    
+  
+}
+
+header h1{
+    font-size:1.5cm;
+
+
+    
+}
+
+main{
+    width: 100%;
+    min-width: 100wh;
+
+    display: flex;
+    justify-content: center;
+
+
+    box-shadow: inset 0px 2px 3px rgb(0, 0, 0, 0.25);
+  
+
+
+
+
+    
+}
+
+main form{
+    margin-top: 3%;
+    width: 30%;
+    height: 70%;
+    
+   
+
+}
+
+main form .inputs-container{
+    margin-top: 10%;
+    width: 100% ;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+main form .inputs-container input {
+    width: 100%;
+    height:  50px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    
+    font-size: 16px;
+
+}
+
+main form .inputs-container input:focus{
+    box-shadow: inset 1px 4px 7px rgba(221, 87, 255, 0.25);
+}
+
+main form .password-container {
+    margin-top: 5%;
+    width: 100%;
+    position: relative; 
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main form .password-container i{
+    position: absolute;
+    right: 3%;
+    top: 20%;
+    color: rgb(204, 121, 252);
+    cursor: pointer;
+}
+
+
+main form .password-container #eye{
+    display: none;
+
+}
+
+
+main form .password-infos{
+
+    width: 100%;
+    margin-top: 1%;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ;
+
+
+}
+
+main form .password-infos a {
+    transition: 0.2s ease-in-out;
+
+}
+
+main form .password-infos a:hover {
+    color: rgb(0, 60, 224);
+}
+
+main form button {
+    background-image: url("https://th.bing.com/th/id/R.a6671937a4db68c68485d574e1222936?rik=eJatT5tM04%2f67g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-EAtCa9k330Y%2fT99Bdcs_YQI%2fAAAAAAAAHG4%2fxLFUk8cV20k%2fs1600%2fbackground-952.jpg&ehk=aov4TRSjJ1IbISbENr6TrwTn2pkX5p4NrtBBgrsyfZI%3d&risl=&pid=ImgRaw&r=0");
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+
+main form button:hover {
+    background: linear-gradient(to right, rgb(109, 247, 109), rgb(5, 95, 5));
+    color: white
+}
+
+
+main form .links-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;    
+    
+
+}
+
+
+main form .links-container span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+main form .links-container aside {
+    margin-top: 1%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+main form .links-container aside i {
+    font-size: 1.6em;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+   
+}
+
+main form .links-container aside .google {
+    color: #e34133;
+
+}
+
+main form .links-container aside .google:hover{
+    background-color: #e34133;
+    color: white;
+}
+
+main form .links-container aside .linkedin {
+    color: #0a66c2;
+
+}
+
+main form .links-container aside .linkedin:hover{
+    background-color: #0a66c2;
+    color: white;
+}
+
+main form .links-container aside .facebook {
+    color: #140af9;
+
+}
+
+main form .links-container aside .facebook:hover{
+    background-color: #140af9;
+    color: white;
+}
+
+main form footer {
+    width: 100%;
+    margin-top: 6%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+main form footer hr {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+main form footer span {
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 3%;
+}
+
+main form footer a {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+
+}
+
+main form footer a:hover {
+    color:blue;
+}
